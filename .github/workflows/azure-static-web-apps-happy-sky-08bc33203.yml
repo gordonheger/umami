@@ -3,7 +3,7 @@ name: Azure Static Web Apps CI/CD
 env:
   APP_LOCATION: "/" # App source code path
   API_LOCATION: "" # Api source code path - optional
-  OUTPUT_LOCATION: "" # Built app content directory - optional
+  OUTPUT_LOCATION: ".next" # Built app content directory - optional
   DATABASE_URL: ${{ secrets.DATABASE_URL }}
   HASH_SALT: ${{ secrets.HASH_SALT }}
 
